@@ -22,14 +22,14 @@ function App() {
   };
 
   return (
-    <section className="w-full h-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-100 dark:bg-gray-800 font-poppins">
+    <section className="w-full h-full py-24 md:py-24 lg:py-32 xl:py-48 bg-gray-100 dark:bg-gray-800 font-poppins">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-4">
-            <h1 className="text-4xl text-neutral-100 font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+            <h1 className="text-4xl text-slate-800 dark:text-neutral-100 font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
               Generador de Imágenes
             </h1>
-            <h3 className="text-xl text-neutral-300 font-bold tracking-tighter sm:text-xl md:text-2xl lg:text-3xl">
+            <h3 className="text-xl text-slate-500 dark:text-neutral-300 font-bold tracking-tighter sm:text-xl md:text-2xl lg:text-3xl">
               por @dansaround.dev{" "}
             </h3>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
